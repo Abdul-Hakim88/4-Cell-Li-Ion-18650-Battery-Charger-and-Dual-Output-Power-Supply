@@ -75,11 +75,11 @@ Raw DC Input (up to 40V)
 
 | Net    | Description                        | Trace Width |
 |--------|------------------------------------|-------------|
-| +5     | 5V regulated rail                  | 120 mil     |
-| Batt1–4| Per-cell charge/discharge path     | 32 mil      |
+| +5     | 5V regulated rail                  | 70 mil     |
+| Batt1–4| Per-cell charge/discharge path     | 35 mil      |
 | GND    | Ground plane (bottom layer)        | plane       |
-| Signal | PROG, TEMP, LED drive              | 12 mil      |
-| GND stubs | IC GND pins to plane via        | 40 mil      |
+| Signal | PROG, TEMP, LED drive              | 15 mil      |
+| GND stubs | IC GND pins to plane via        | 35 mil      |
 
 ---
 
