@@ -1,0 +1,24 @@
+Reference,Quantity,Description,Part Number,Value,Package,Notes
+U1 U3 U5 U7,4,Li-Ion Charger IC,TP4056,—,SOP-8,PROG pin sets charge current
+U2 U4 U6 U8,4,Battery Protection IC,DW01A,—,SOT-23-6,OVP / UVP / OCP per cell
+Q1 Q2 Q3 Q4,4,Dual N-Channel MOSFET,FS8205,20V 6A,SOT-23-6,Driven by DW01A
+VR1,1,Buck Converter,LM2576-5.0WT,5V fixed 3A,TO-263-5,Input up to 40V
+D9,1,Schottky Diode,1N5822,3A 40V,DO-201AD,Buck freewheeling diode
+D10 D11 D12,3,Schottky Diode,1N5819-G,1A 40V,DO-41,Series output bypass
+L1,1,Inductor,—,100uH 3A,—,Buck converter inductor
+BT1 BT2 BT3 BT4,4,18650 Battery Holder,Keystone 1042,—,SMD,Single cell
+R1 R6 R11 R16,4,Resistor,—,100R 0.25W,0805,DW01A CS pin
+R5 R10 R15 R20,4,PROG Resistor,—,2k 0.25W,0805,Sets 500mA charge current
+R2 R3 R4 R7 R8 R9 R13 R14,8,Resistor,—,1k 0.25W,0805,LED current limiting
+C1 C3 C5 C7,4,Ceramic Capacitor,—,100nF 50V,0805,BAT pin decoupling
+C2 C4 C6 C8,4,Electrolytic Capacitor,—,10uF 10V,—,BAT output bulk
+C9 C10,2,Electrolytic Capacitor,—,see schematic,—,Buck input filter
+C0,1,Electrolytic Capacitor,—,100uF 10V,—,Buck output bulk
+OS1,1,DIP Switch 4-position,—,—,—,Charging channel enable
+DIP2,1,DIP Switch 4-position,—,—,—,Series output control
+J4,1,Connector 2-pin,—,—,—,Output 3.7-14.8V 500mA
+J5,1,Connector 2-pin,—,—,—,Output 5V 2A
+J2,1,Connector 2-pin,—,—,—,Regulated 5V bypass input
+J1,1,DC input connector,—,—,—,Raw DC input
+D1 D2 D3 D4 D5 D6 D7 D8,8,LED,—,Red Green,3mm or SMD,CHRG STDBY per channel
+Voltmeter,1,Voltmeter Module,393570002,—,Panel mount,Output monitoring

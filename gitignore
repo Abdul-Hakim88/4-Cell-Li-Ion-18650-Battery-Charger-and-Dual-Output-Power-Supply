@@ -1,0 +1,44 @@
+# ── Altium Designer ──────────────────────────────────────
+# History and backups
+altium/**/__Previews/
+altium/**/*_Previews/
+altium/**/*.PrjPcbStructure
+altium/**/*.PcbDoc.bak
+altium/**/*.SchDoc.bak
+altium/**/*.bak
+altium/**/*.Bak
+altium/**/*_backup*/
+altium/**/History/
+altium/**/__Previews/
+altium/**/*.log
+altium/**/*.LOG
+altium/**/*.APR_LIB
+altium/**/*.REP
+altium/**/*.DRC
+
+# Altium auto-generated
+altium/**/*.PcbLib.bak
+altium/**/*.SchLib.bak
+altium/**/*.PrjPcb.bak
+
+# Outputs (keep gerbers in /fabrication, not auto-generated folders)
+altium/**/Project\ Outputs*/
+
+# ── Fabrication ───────────────────────────────────────────
+# Keep gerbers tracked — do not ignore
+# Ignore any temp export folders
+fabrication/temp/
+fabrication/*.zip.bak
+
+# ── IDEs and OS ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Credentials ──────────────────────────────────────────
+secrets.*
+config.local.*
