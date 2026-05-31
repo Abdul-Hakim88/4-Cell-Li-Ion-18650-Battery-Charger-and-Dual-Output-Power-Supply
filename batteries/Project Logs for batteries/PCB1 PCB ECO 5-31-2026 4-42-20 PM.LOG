@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Pin From Net: NetName=GND Pin=U5-9
+Removed Pin From Net: NetName=GND Pin=U7-9
+Change Component Comment : Designator=J2 Old Comment=Regulated 5V New Comment=Input Power - Regulated 5V 2A
+Change Component Designator: OldDesignator=Charge Switch NewDesignator=S1
+Change Component Designator: OldDesignator=Input 36-12V 3A NewDesignator=J1
+Change Component Designator: OldDesignator=J3 NewDesignator=Voltmeter
+Change Component Designator: OldDesignator=Output 3.7-15V 0.5A NewDesignator=J4
+Change Component Designator: OldDesignator=OUTPUT 5V 2A NewDesignator=J5
+Added Component: Designator=R17(RES_ERJ3EKF4703V)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ERJ-3EKF4703V/Panasonic+Electronic+Components/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ERJ-3EKF4703V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1608-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ERJ-3EKF4703V/Panasonic+Electronic+Components/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Change Net Name : Old Net Name=NetJ3_1 New Net Name=NetJ4_1
+Added Member To Class: ClassName=Sheet1 Member=Component R17 1k

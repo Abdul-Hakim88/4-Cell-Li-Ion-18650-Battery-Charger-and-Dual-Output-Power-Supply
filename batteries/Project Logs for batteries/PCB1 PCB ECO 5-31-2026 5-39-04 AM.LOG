@@ -1,0 +1,10 @@
+Added Component: Designator=J3(CONN_393570002_MOL)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/393570002/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "393570002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/393570002/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=BV2 Pin=J3-2
+Added Member To Class: ClassName=Sheet2 Member=Component J3 393570002
