@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=BV2 Pin=BT1-P
+Removed Pin From Net: NetName=BV2 Pin=BT3-P
+Removed Pin From Net: NetName=BV2 Pin=BT4-P
+Removed Pin From Net: NetName=BV2 Pin=Charge Switch-1B
+Removed Pin From Net: NetName=BV2 Pin=Charge Switch-3B
+Removed Pin From Net: NetName=BV2 Pin=Charge Switch-4B
+Removed Pin From Net: NetName=BV2 Pin=D12-1
+Removed Pin From Net: NetName=BV2 Pin=J3-2
+Removed Pin From Net: NetName=BV2 Pin=Output 3.7-15V 0.5A-2
+Removed Pin From Net: NetName=BV2 Pin=OUTPUT 5V 2A-1
+Removed Pin From Net: NetName=BV2 Pin=S2-2A
+Removed Pin From Net: NetName=BV2 Pin=S2-3A
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Pin From Net: NetName=GND Pin=U5-9
+Removed Pin From Net: NetName=GND Pin=U7-9
+Change Component Comment : Designator=R5 Old Comment=1.2k New Comment=2k
+Change Component Comment : Designator=R10 Old Comment=1.2k New Comment=2k
+Change Component Comment : Designator=R15 Old Comment=1.2k New Comment=2k
+Change Component Comment : Designator=R20 Old Comment=1.2k New Comment=2k
+Change Component Comment : Designator=J2 Old Comment=Regulated 5V New Comment=Input Power - Regulated 5V 2A
+Change Component Designator: OldDesignator=Charge Switch NewDesignator=S1
+Change Component Designator: OldDesignator=Input 36-12V 3A NewDesignator=J1
+Change Component Designator: OldDesignator=J3 NewDesignator=Voltmeter
+Change Component Designator: OldDesignator=Output 3.7-15V 0.5A NewDesignator=J4
+Change Component Designator: OldDesignator=OUTPUT 5V 2A NewDesignator=J5
+Change Component Description : Designator=C1 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C2 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C3 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C4 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C5 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C6 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C7 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=C8 Old Description=Capacitor MLCC 0603 100nF 16V New Description=Capacitor MLCC 0603 100nF 16V | AVX 0603YC104KAZ2A
+Change Component Description : Designator=D10 Old Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A New Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A | ON Semiconductor 1N5819G
+Change Component Description : Designator=D11 Old Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A New Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A | ON Semiconductor 1N5819G
+Change Component Description : Designator=D12 Old Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A New Description=Diode,Schottky Barrier,Vr 40V,If 1A,Pkg CASE 59-10,Vf 0.6V,Tj +125degc,Cs 25A | ON Semiconductor 1N5819G
+Change Component Description : Designator=L1 Old Description=L = 49 ÂµH ; IR = 5.8 A; Isat = 2.2 A; RDC = 0.05 â„ New Description=L = 49 ÂµH ; IR = 5.8 A; Isat = 2.2 A; RDC = 0.05 â„|
+Added Component: Designator=R17(RES_ERJ3EKF4703V)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ERJ-3EKF4703V/Panasonic+Electronic+Components/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ERJ-3EKF4703V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1608-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ERJ-3EKF4703V/Panasonic+Electronic+Components/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=J5-1
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Change Net Name : Old Net Name=NetJ3_1 New Net Name=NetJ4_1
+Added Pin To Net: NetName=BV3 Pin=BT3-P
+Added Pin To Net: NetName=BV3 Pin=D12-1
+Added Pin To Net: NetName=BV3 Pin=S1-3B
+Added Pin To Net: NetName=BV3 Pin=S2-2A
+Added Net: Name=BV3
+Added Pin To Net: NetName=BV4 Pin=BT4-P
+Added Pin To Net: NetName=BV4 Pin=S1-4B
+Added Pin To Net: NetName=BV4 Pin=S2-3A
+Added Net: Name=BV4
+Added Pin To Net: NetName=NetBT1_P Pin=BT1-P
+Added Pin To Net: NetName=NetBT1_P Pin=J4-2
+Added Pin To Net: NetName=NetBT1_P Pin=S1-1B
+Added Pin To Net: NetName=NetBT1_P Pin=Voltmeter-2
+Added Net: Name=NetBT1_P
+Added Member To Class: ClassName=Sheet2 Member=Component J1 694106402002
+Added Member To Class: ClassName=Sheet2 Member=Component J4 OUT 3.7-15V 0.5A
+Added Member To Class: ClassName=Sheet2 Member=Component J5 OUTPUT 5V 2A
+Added Member To Class: ClassName=Sheet1 Member=Component R17 1k
+Added Member To Class: ClassName=Sheet2 Member=Component S1 DIP1
+Added Member To Class: ClassName=Sheet2 Member=Component Voltmeter 393570002
