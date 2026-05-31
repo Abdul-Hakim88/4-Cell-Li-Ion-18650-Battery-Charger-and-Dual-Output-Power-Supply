@@ -69,7 +69,7 @@ Raw DC Input (up to 40V)
 | J5           | 1   | Connector, 2-pin             | —                 | Output 5V 2A                    |
 | J2           | 1   | Connector, 2-pin             | —                 | Regulated 5V 2A bypass input    |
 | J1           | 1   | DC Barrel Jack or screw term | —                 | Raw DC input                    |
-| —            | 1   | Voltmeter Module             | 393570002         | panel mount, output monitoring  |
+| —            | 1   | Voltmeter Module             |                   | panel mount, output monitoring  |
 
 ### GPIO / Net Summary
 
